@@ -65,37 +65,64 @@ For I-vectors, the expected output error rates are ::
 
   ---------------  male  -----------------
   ----------------------------------------------
-  EER = 6.899%     Threshold = 43.973
-  replay_phone1 : 29.097%
-  replay_phone2 : 27.742%
-  replay_laptop : 39.806%
-  replay_laptop_HQ : 77.419%
-  speech_synthesis_logical_access : 96.498%
-  speech_synthesis_physical_access : 60.553%
-  speech_synthesis_physical_access_HQ : 93.456%
-  voice_conversion_logical_access : 92.649%
-  voice_conversion_physical_access : 83.972%
-  voice_conversion_physical_access_HQ : 88.766%
+  EER = 6.9%       Threshold = 43.973
+  replay_phone1 : 29.1%
+  replay_phone2 : 27.7%
+  replay_laptop : 39.8%
+  replay_laptop_HQ : 77.4%
+  speech_synthesis_logical_access : 96.5%
+  speech_synthesis_physical_access : 60.6%
+  speech_synthesis_physical_access_HQ : 93.5%
+  voice_conversion_logical_access : 92.6%
+  voice_conversion_physical_access : 84.0%
+  voice_conversion_physical_access_HQ : 88.8%
 
   ---------------  female  -----------------
   ----------------------------------------------
-  EER = 17.480%    Threshold = 44.632
-  replay_phone1 : 11.846%
-  replay_phone2 : 11.077%
-  replay_laptop : 32.154%
-  replay_laptop_HQ : 69.385%
-  speech_synthesis_logical_access : 81.538%
-  speech_synthesis_physical_access : 69.451%
-  speech_synthesis_physical_access_HQ : 83.736%
-  voice_conversion_logical_access : 71.603%
-  voice_conversion_physical_access : 75.808%
-  voice_conversion_physical_access_HQ : 73.013%
+  EER = 17.5%      Threshold = 44.632
+  replay_phone1 : 11.8%
+  replay_phone2 : 11.1%
+  replay_laptop : 32.2%
+  replay_laptop_HQ : 69.4%
+  speech_synthesis_logical_access : 81.5%
+  speech_synthesis_physical_access : 69.5%
+  speech_synthesis_physical_access_HQ : 83.7%
+  voice_conversion_logical_access : 71.6%
+  voice_conversion_physical_access : 75.8%
+  voice_conversion_physical_access_HQ : 73.0%
+
 
 
 For ISV, the expected output error rates are ::
 
   ---------------  male  -----------------
   ----------------------------------------------
+  EER = 4.9%       Threshold = 0.597
+  replay_phone1 : 19.2%
+  replay_phone2 : 45.9%
+  replay_laptop : 45.3%
+  replay_laptop_HQ : 74.1%
+  speech_synthesis_logical_access : 97.0%
+  speech_synthesis_physical_access : 65.9%
+  speech_synthesis_physical_access_HQ : 94.1%
+  voice_conversion_logical_access : 93.4%
+  voice_conversion_physical_access : 77.4%
+  voice_conversion_physical_access_HQ : 89.3%
+
+  ---------------  female  -----------------
+  ----------------------------------------------
+  EER = 10.6%      Threshold = 0.690
+  replay_phone1 : 12.2%
+  replay_phone2 : 23.1%
+  replay_laptop : 35.7%
+  replay_laptop_HQ : 68.5%
+  speech_synthesis_logical_access : 83.5%
+  speech_synthesis_physical_access : 67.9%
+  speech_synthesis_physical_access_HQ : 83.7%
+  voice_conversion_logical_access : 71.2%
+  voice_conversion_physical_access : 50.7%
+  voice_conversion_physical_access_HQ : 73.0%
+
 
 
 .. _Bob: http://www.idiap.ch/software/bob
