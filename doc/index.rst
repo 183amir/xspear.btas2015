@@ -46,12 +46,12 @@ The interface for the AVspoof database (bob.db.avspoof) will be downloaded autom
 
 Then to run the I-Vector scripts::
 
-   $ bin/train_ivector.py -vv -d avspoof -p mod-4hz -e mfcc-60 -a ivec-avspoof -s ivec -g demanding
+   $ bin/train_ivector.py -vv -d avspoof -p mod-4hz -e mfcc-60 -a ivec-avspoof -s ivec --groups world -g demanding 
    $ bin/verify.py -vv -d avspoof -p energy-2gauss -e mfcc-60 -a ivec-avspoof -s ivec --groups {dev,eval} -g demanding --skip-projector-training
 
 To run the ISV scripts::
 
-   $ bin/train_isv.py -vv -d avspoof -p mod-4hz -e mfcc-60 -a ivec-avspoof -s isv -g demanding
+   $ bin/train_isv.py -vv -d avspoof -p mod-4hz -e mfcc-60 -a ivec-avspoof -s isv --groups world -g demanding
    $ bin/verify.py -vv -d avspoof -p energy-2gauss -e mfcc-60 -a ivec-avspoof -s isv --groups {dev,eval} -g demanding --skip-projector-training
 
 Notice that the pre-processing of the training data is done using 4Hz modulation energy (mod-4hz) based voice activity detection (VAD) while the preprocessing of the DEV and EVAL set is done using Two-Gaussians energy-based VAD. 
