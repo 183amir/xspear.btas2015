@@ -22,7 +22,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='xspear.btas2015',
-    version='2.0.0',
+    version='2.0.1a',
     description='On the Vulnerability of Speaker Verification to Realistic Voice Spoofing',
     url='https://pypi.python.org/pypi/spear.btas2015',
     license='GPLv3',
