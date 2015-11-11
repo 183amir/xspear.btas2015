@@ -56,7 +56,7 @@ install_requires=[
         "setuptools", # for whatever
         "bob.bio.spear",
         "bob.bio.gmm",    
-        "bob.db.avspoof"    
+        "bob.db.avspoof_btas2015"    
     ],
 
 

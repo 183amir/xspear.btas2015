@@ -39,7 +39,7 @@ II- Running experiments
 ------------------------
 
 The above two commands will automatically download all desired packages from `pypi`_ and generate some scripts in the bin directory.
-The interface for the AVspoof database (bob.db.avspoof) will be downloaded automatically. You only need to download the AVspoof data (it is free of charge but requires to sign the EULA) ::
+The interface for the AVspoof database (bob.db.avspoof_btas2015) will be downloaded automatically. You only need to download the AVspoof data (it is free of charge but requires to sign the EULA) ::
 
     $ https://www.idiap.ch/dataset/avspoof
 
